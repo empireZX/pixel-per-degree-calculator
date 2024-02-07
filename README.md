@@ -1,2 +1,34 @@
-# pixel-per-degree-calculator
-Pixels per Degree Calculator, Calculates the Ideal Viewing Distance for Your Display.
+# 观看距离调整建议器
+
+这个Python程序旨在帮助用户根据他们的屏幕尺寸和当前观看距离计算每度的像素数，并给出调整观看距离以达到最佳视觉体验的建议。
+
+## 功能
+
+- 计算给定屏幕参数和观看距离下的每度像素数。
+- 根据目标每度像素数（默认为60像素/度），提供增大或减小观看距离的具体建议。
+
+## 使用方法
+
+1. 确保您的环境中安装了Python 3。
+2. 下载`calculate_adjustment.py`（假设代码保存在此文件）。
+3. 在终端或命令提示符中，运行以下命令：
+
+python calculate_adjustment.py
+
+4. 按照程序提示，输入屏幕宽度（像素）、高度（像素）、对角线尺寸（米）和当前观看距离（米）。
+
+## 输入示例
+
+
+## 输出
+
+程序将计算当前的每度像素数，并根据这个数值给出调整观看距离的建议。
+
+## 开发环境
+
+- Python 3.8 或更高版本
+
+## 依赖
+
+无特定依赖。程序使用Python标准库中的`math`模块。
+
