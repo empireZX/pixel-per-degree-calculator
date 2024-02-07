@@ -1,34 +1,36 @@
-# 观看距离调整建议器
+# Viewing Distance Adjustment Adviser
 
-这个Python程序旨在帮助用户根据他们的屏幕尺寸和当前观看距离计算每度的像素数，并给出调整观看距离以达到最佳视觉体验的建议。
+This Python program aims to assist users in calculating the pixels per degree based on their screen size and current viewing distance and provides recommendations for adjusting the viewing distance for optimal visual experience.
 
-## 功能
+## Features
 
-- 计算给定屏幕参数和观看距离下的每度像素数。
-- 根据目标每度像素数（默认为60像素/度），提供增大或减小观看距离的具体建议。
+- Computes pixels per degree based on given screen parameters and viewing distance.
+- Provides specific recommendations to increase or decrease the viewing distance based on the target pixels per degree (defaulted to 60 pixels per degree).
 
-## 使用方法
+## How to Use
 
-1. 确保您的环境中安装了Python 3。
-2. 下载`calculate_adjustment.py`（假设代码保存在此文件）。
-3. 在终端或命令提示符中，运行以下命令：
+1. Ensure you have Python 3 installed in your environment.
+2. Download `calculate_adjustment.py` (assuming the code is saved in this file).
+3. In the terminal or command prompt, run the following command:
 
+```bash
 python calculate_adjustment.py
+```
 
-4. 按照程序提示，输入屏幕宽度（像素）、高度（像素）、对角线尺寸（米）和当前观看距离（米）。
+4. Follow the prompts of the program and input the screen width (in pixels), height (in pixels), diagonal size (in meters), and current viewing distance (in meters).
 
-## 输入示例
+## Input Example
 
+[Provide an example of input if needed]
 
-## 输出
+## Output
 
-程序将计算当前的每度像素数，并根据这个数值给出调整观看距离的建议。
+The program will calculate the current pixels per degree and provide recommendations for adjusting the viewing distance based on this value.
 
-## 开发环境
+## Development Environment
 
-- Python 3.8 或更高版本
+- Python 3.8 or higher
 
-## 依赖
+## Dependencies
 
-无特定依赖。程序使用Python标准库中的`math`模块。
-
+No specific dependencies. The program utilizes the `math` module from the Python standard library.
